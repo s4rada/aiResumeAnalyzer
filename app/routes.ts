@@ -4,6 +4,7 @@ const routes = [
   index("routes/home.tsx"),
   route("/auth", "routes/auth.tsx"),
   route("/upload", "routes/upload.tsx"),
+  route("/resume/:id", "routes/resume.tsx"),
 
 ] satisfies RouteConfig;
 
