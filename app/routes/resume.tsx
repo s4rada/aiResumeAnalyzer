@@ -41,7 +41,7 @@ const Resume = () => {
         loadResume();
     },[id]);
   return (
-    <main className='!pt-0' >
+    <main className='!pt-0'>
         <nav className='resume-nav'>
             <Link to="/" className='back-button'>
                 <img src="/icons/back.svg" alt="back" className='w-2.5 h-2.5'/>
@@ -49,7 +49,7 @@ const Resume = () => {
             </Link>
 
         </nav>
-        <div className='flex flex-row w-full max-lg:flex-col-reverse'>
+        <div className='flex flex-row-reverse w-full max-lg:flex-col-reverse'>
             <section className='feeedback-section' >
                 <h2 className='text-4xl !text-black font-bold '>
                     Resume Review
